@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Poppins:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: #1fb5da;
+}
+
+.bg-color{
+    background-color: #1fb5da;
+    color: white!important;
+}
+
+.title-text{
+    font-family: 'Concert One', cursive;
+    font-weight: bolder;
+}
+
+
+.nav-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.heading-text{
+    font-family: 'Comfortaa', cursive;
+}
+.section-heading{
+    margin-top: 7%!important;
+}
+
+
+  /* Controls */
+.form-control{
+    border-radius: 0%;
+    box-shadow: none;
+   
+}
+.form-control:hover,.form-control:active,.form-control:focus{
+    border-radius: 0%;
+    border: none;
+    box-shadow: none;
+    
+}
+.btn{
+    width: 100%;
+    border-radius: 0%;
+    background-color:white;
+    border: 1px solid #1fb5da ;
+    color: #1fb5da ;
+    border-radius: 2px;
+}
+.btn:hover{
+    background-color:#1fb5da;
+    color : white;
+    border: 1px solid  white;
+    border-radius: 2px;
+}
+
+.scroll-to-top {
+    font-family: 'Comfortaa', cursive;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    outline: none;
+    background-color:transparent;
+    color: orangered ;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #fff;
+ 
+  }
+  .scroll-to-top:hover {
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white ;
+
+
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .carousel {
+        width: 100%;
+      }
+
+
+
+  }
+  /* External things */
+
+.no-border {
+    border: 1px solid white!important;
+    border-radius: 0%;
+    height: 50px;
+    width: 40px;
+    padding: 0%;
+    box-shadow: none!important; 
+}
+.no-border:hover{
+    border: 0!important;
+    box-shadow: none!important;
+}
+
+.no-border:focus{
+    border: 0!important;
+    box-shadow: none!important;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+.toggledot{
+    color:white;
+}
+
+.toggledot:hover{
+    background-color: white;
+}
+hr{
+    border-top: 6px solid white;
+    border-radius: 10px;;
+}
